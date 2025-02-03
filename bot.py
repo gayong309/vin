@@ -5,8 +5,8 @@ import re
 from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 
-TELEGRAM_BOT_TOKEN = "bot token here"
-ADMIN_USER_ID = admin id here  # Change this to your Telegram user ID
+TELEGRAM_BOT_TOKEN = "7831052609:AAE_dW7XnNVgiyc86KfqeQdJR5iUz-GUPpE"
+ADMIN_USER_ID = 6854788941
 USERS_FILE = "users.txt"
 attack_in_progress = False
 attack_process = None  # To store the process running the attack
